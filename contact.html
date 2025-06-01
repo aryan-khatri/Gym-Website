@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://assets.website-files.com/5e873d0218d87d498ce7d246/5e873d0218d87d2275e7d26b_Fitness_Favicon.png" type="image/png">
+    <title>Contact - Aryan Gym</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="https://assets.website-files.com/5e873d0218d87d498ce7d246/5e873d0218d87d2275e7d26b_Fitness_Favicon.png" alt="Aryan Gym Logo" style="width: 50px; height: 50px; object-fit: contain;">
+                    <span class="logo-text">ARYAN GYMING</span>
+                </div>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link"><i class="fa fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link"><i class="fa fa-info-circle"></i> About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active"><i class="fa fa-envelope"></i> Contact</a></li>
+                    <button class="theme-toggle" title="Switch to light mode"><i class="fa fa-sun-o"></i></button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="hero" style="height: 50vh;">
+        <div class="hero-content">
+            <h1 class="hero-title">Meet Us</h1>
+            <h2 class="hero-subtitle">Get in touch with our team</h2>
+        </div>
+    </section>
+
+    <!-- Contact Info & Map Section -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Contact Information</h2>
+                    <div class="footer-contact" style="margin-top: 2rem;">
+                        <p><i class="fa fa-home"></i> <strong>ARYAN GYMING</strong></p>
+                        <p><i class="fa fa-map-marker"></i> <strong>SUBHASH NAGAR ASHTA</strong></p>
+                        <p><i class="fa fa-fw fa-envelope"></i> <strong>Aryangym@gmail.com</strong></p>
+                        <p><i class="fa fa-fw fa-phone"></i> <strong>Mobile - 9301****80</strong></p>
+                    </div>
+                    <h3 style="margin-top: 2rem;">Opening Hours</h3>
+                    <div style="margin-top: 1rem;">
+                        <p><strong>Monday - Friday:</strong> 6:00 AM - 10:00 PM</p>
+                        <p><strong>Saturday:</strong> 8:00 AM - 8:00 PM</p>
+                        <p><strong>Sunday:</strong> 8:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29377.52943145075!2d76.70488162600593!3d23.01675168716867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397cc4b009806707%3A0x6268c8eb24800dc1!2sAshta%2C%20Madhya%20Pradesh%20466116!5e0!3m2!1sen!2sin!4v1678427008932!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0; border-radius: var(--border-radius-md);" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section" style="background-color: rgba(255, 255, 255, 0.05);">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Enter your name">
+                            <span class="form-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" class="form-input" placeholder="Enter your email">
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" class="form-input" placeholder="Enter your phone number">
+                            <span class="form-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="country" class="form-label">Country</label>
+                            <select id="country" class="form-input">
+                                <option value="india">India</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                                <option value="australia">Australia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city" class="form-label">City</label>
+                            <select id="city" class="form-input">
+                                <option value="ashta">Ashta</option>
+                                <option value="indore">Indore</option>
+                                <option value="bhopal">Bhopal</option>
+                                <option value="sehore">Sehore</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select id="subject" class="form-input">
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="classes">Group Classes</option>
+                                <option value="training">Personal Training</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-textarea" placeholder="Any questions or comments?" rows="6"></textarea>
+                        <span class="form-error"></span>
+                    </div>
+                    <div style="text-align: center; margin-top: 1.5rem;">
+                        <input type="submit" class="btn" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="section">
+        <div class="container">
+            <div style="text-align: center; padding: 2rem; border-radius: var(--border-radius-md); background-color: var(--primary-color); color: var(--text-light);">
+                <h2 style="font-size: 2rem; margin-bottom: 1rem;"><i class="fa fa-mail-forward"></i> Best Gym in your locality <i class="fa fa-mail-reply"></i></h2>
+                <p style="font-size: 1.2rem;">Thanks for visiting. We'll contact you as soon as possible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Aryan Gym</h3>
+                    <p>Your fitness partner since 2018. We are dedicated to helping you achieve your fitness goals in a supportive and motivating environment.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fa fa-map-marker"></i> Subhash Nagar, Ashta, Madhya Pradesh 466116</p>
+                    <p><i class="fa fa-phone"></i> 9301****80</p>
+                    <p><i class="fa fa-envelope"></i> Aryangym@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Aryan Gym. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
