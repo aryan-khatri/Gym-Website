@@ -1,4 +1,8 @@
 #  Gym Website
+---
+##  Live Demo
+ [Visit the Live Site](https://aryan-khatri.github.io/Gym-Website/) *(Look into It)*
+---
 
 A responsive and modern gym-themed website built using **HTML**, **CSS**, and **JavaScript**. Perfect for gym businesses, personal trainers, or fitness enthusiasts looking for a stylish online presence.
 
@@ -51,9 +55,7 @@ Gym-Website/
 
 ---
 
-##  Live Demo
 
- [Visit the Live Site](https://aryan-khatri.github.io/Gym-Website/) *(after GitHub Pages is set up)*
 
 ---
 
